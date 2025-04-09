@@ -35,13 +35,9 @@
   </section>
 
   <!-- Resume Section -->
-  <section id="resume">
-    <h2>Resume</h2>
-    <button onclick="document.getElementById('resumeModal').style.display='block'">Open Resume</button>
-    <div id="resumeModal" class="modal">
-      <span class="close" onclick="document.getElementById('resumeModal').style.display='none'">&times;</span>
-      <iframe src="Resume.docx" width="100%" height="500px"></iframe>
-    </div>
+  <section id="resume" class="section fadeIn">
+    <h2 class="section-title">Resume</h2>
+    <button onclick="window.open('Resume.docx', '_blank')">Ayush Gajipara's resume </button>
     <div class="resume-sections">
       <h3>Summary</h3>
       <p>Security-focused student with experience in digital forensics, system provisioning, and penetration testing.</p>
